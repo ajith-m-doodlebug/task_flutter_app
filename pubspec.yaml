@@ -1,0 +1,81 @@
+# @format
+
+name: task_urbanmatch
+description: "An Flutter App that connects to the Github API, shows the public repositories."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # App Icons
+  flutter_launcher_icons:
+
+  # Bloc Architecture
+  flutter_bloc:
+  bloc:
+
+  # API
+  dio:
+
+  # Loading Animation
+  shimmer:
+
+  # Open URL
+  url_launcher:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/logos/
+
+  fonts:
+    - family: Recline-Light
+      fonts:
+        - asset: assets/fonts/Recline-Light.otf
+
+    - family: Recline-Regular
+      fonts:
+        - asset: assets/fonts/Recline-Regular.otf
+
+    - family: Recline-Medium
+      fonts:
+        - asset: assets/fonts/Recline-Medium.otf
+
+    - family: Lucida
+      fonts:
+        - asset: assets/fonts/Lucida-Sans-Regular.ttf
+
+    - family: Leo-Bold
+      fonts:
+        - asset: assets/fonts/LeoSemiRounded-Bold.ttf
+
+    - family: Leo-Light
+      fonts:
+        - asset: assets/fonts/LeoSemiRounded-Light.ttf
+
+    - family: Bison-Bold
+      fonts:
+        - asset: assets/fonts/Bison-Bold.ttf
